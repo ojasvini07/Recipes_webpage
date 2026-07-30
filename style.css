@@ -76,7 +76,11 @@ main {
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2rem;
 }
-
+.card {
+  background-color: #ffffff;
+  border-radius: 12px; 
+  overflow: hidden;    
+}
 .card {
   background: #ffffff;
   border-radius: 12px;
